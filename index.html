@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swarm Feed Resolver</title>
+    <script>
+      /// Define basepath
+      const path = window.location.pathname
+      const bzzPattern = /\/bzz\/([^/]+)/
+      const basename = bzzPattern.test(path) ? path.match(bzzPattern)[0] : ""
+      window.__dynamic_base__ = basename
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
