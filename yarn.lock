@@ -347,6 +347,11 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.44.0.tgz#961a5903c74139390478bdc808bcde3fc45ab7af"
   integrity sha512-Ag+9YM4ocKQx9AarydN0KY2j0ErMHNIocPDrVo8zAE44xLTjEtz81OdR68/cydGtk6m6jDb5Za3r2useMzYmSw==
 
+"@etherna/sdk-js@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@etherna/sdk-js/-/sdk-js-1.0.0.tgz#d0ed30c33b3a2cf48473e6e07e9691c4313b48fc"
+  integrity sha512-5w0m8TXtWCeXCqqP+jZUNKP1hCZGcQRGL5ULlX4BQZbqYA7z15EkwUZyQJkUmZny+Ch5lGFlJKVvBwqc4ncTfA==
+
 "@floating-ui/core@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.4.0.tgz#bc918b49145115c49cc15882c8f29af03435ff50"
