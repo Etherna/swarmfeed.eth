@@ -24,6 +24,7 @@ import { routeTree } from "./app"
 export const router = new Router({
   routeTree,
   defaultPreload: "intent",
+  basepath: window.__dynamic_base__,
 })
 
 declare module "@tanstack/router" {

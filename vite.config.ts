@@ -8,10 +8,7 @@ import svgr from "vite-plugin-svgr"
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode, command }) => ({
-  base: mode === "production" && command === "build" ? "/__dynamic_base__/" : "/",
-  build: {
-    manifest: true,
-  },
+  base: mode === "production" && command === "build" ? "/__dynamic_base__/" : "",
   server: {
     port: 3000,
   },
